@@ -1,2 +1,29 @@
-# rag-conteudo-texto
-Como usar seu próprio conteúdo em Inteligência Artificial no llama3.1
+# Passo Python
+
+- Criar ambiente
+
+python -m venv ragRestaurante
+
+- Ativar o ambiente
+
+source ragRestaurante/bin/activate
+
+- Desativar o ambiente
+
+deactivate
+
+- Instalar chromadb
+
+pip install chromadb
+
+- Instalar ollama
+
+pip install ollama
+
+- Criar DB
+
+python restaurante-db.py
+
+- Iniciar pergunta
+
+python modelo-conecte.py
