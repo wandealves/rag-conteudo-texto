@@ -27,3 +27,10 @@ python restaurante-db.py
 - Iniciar pergunta
 
 python modelo-conecte.py
+
+# Chat UI
+
+npm i
+npm run start
+
+Acessar: http://localhost:3000/
