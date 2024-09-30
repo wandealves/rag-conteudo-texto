@@ -28,6 +28,13 @@ python restaurante-db.py
 
 python modelo-conecte.py
 
+# Executar o server API
+
+uvicorn main:app --reload
+
+- Adicionar fastapi
+  pip install fastapi[all]
+
 # Chat UI
 
 npm i
